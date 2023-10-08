@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+    /* --------------------- Navbar --------------------- */
+
+.navbar {
+    width: 100vw;
+    height: 13vh;
+    background-color: #002F5A;
+    display: flex;
+    border-bottom: 2px solid #FFB400;
+    position: fixed;
+}
+
+.navbar img {
+    margin-right: 420px;
+    padding: 7px 30px 13px 210px; 
+    width: 80px;
+    height: 75px;
+}
+
+.navbar ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding-right: 29px;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+
+    /* --------------------- Main --------------------- */
+
+.main {
+    background-color: rgb(0, 0, 73);
+    height: 1420px;
+    padding-top: 80px;
+}
+
+.chat {
+    position: fixed;
+    top: 90vh;
+    right: 30px;
+    background-color: #343440;
+    z-index: 5;
+}
+
+.chat a img {
+    width: 110px;
+    height: 40px;
+}
+
+.arrow {
+    position: fixed;
+    top: 90vh;
+    left: 30px;
+    z-index: 5;
+}
+
+.arrow a img {
+    width: 40px;
+    height: 40px;
+}
+
+.mail {
+    position: fixed;
+    top: 50vh;
+    right: -60px;
+    z-index: 5;
+    transform: rotate(90deg);
+    transform-origin: center center;
+}
+
+.mail a {
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+    width: 50vw;
+    height: 230px;
+    padding: 50px 0 0 200px;
+}
+
+.text h4 {
+    color: rgb(179, 239, 239);
+}
+
+.text h2 {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.text h5 {
+    color: white;
+}
+
+.text h5 span {
+    color: aqua;
+    font-size: 15px;
+}
+
+.text p {
+    color: whitesmoke;
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.comingup img {
+    width: 100vw;
+    border: none;
+    height: 15vh;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .left {
+    width: 35%;
+    height: 30vh;
+}
+
+.content .left img {
+    padding-left: 70px;
+    width: 290px;
+    height: 400px;
+}
+
+.content .right {
+    width: 65%;
+    height: 30vh;
+}
+
+.right h3 {
+    color: aquamarine;
+    padding-left: 50px;
+    padding-bottom: 3px;
+}
+
+.right .date {
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.right p {
+    color: white;
+    padding-right: 80px;
+}
+
+.right input {
+    margin-top: 30px;
+    width: 95px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    background-color: rgb(82, 142, 216);
+    color: white;
+    border: none;
+}
+
+.right input:hover {
+    color: green;
+    background-color: white;
+}
+
+.about img {
+    margin-top: 230px;
+    margin-left: 55px;
+}
+
+.info {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .left1 img {
+    width: 400px;
+    height: 400px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.info .right1 ul {
+    padding-left: 100px;
+    margin-top: 80px;
+}
+
+.info .right1 ul li {
+    color: white;
+    margin-right: 60px;
+}
+
+.special-li {
+    list-style: none;
+    margin-top: 90px;
+    margin-left: -14px;
+}
+
+.special-li span {
+    color: aqua;
+}
+
+.info .right1 ul li {
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+.footer {
+    height: 150px;
+    width: 100vw;
+    background-color: #002F5A;
+    color: white;
+    border-top: 2px solid #FFB400;
+    text-align: center;
+}
+
+.footer h3 {
+    margin-top: 20px;
+}
+
+.footer p {
+    margin-top: 20px;
+}
+
+.footer .social-icon img {
+    height: 25px;
+    width: 25px;
+    margin-top: 20px;
+    padding-right: 30px;
+    margin-left: 40px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer i {
+    font-size: 30px;
+    padding-right: 30px;
+}
